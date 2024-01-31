@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1.title{
+    font-family: 'Honk', system-ui;
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.centered input{
+    border: solid gray 1px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.container{
+    text-align: center;
+}
+main {
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    border: 1px solid #ccc; /* Añade un borde para visualizar el área del main */
+    padding: 20px;
+}
+button{
+    font-size: 1rem;
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+button:hover{
+    border: solid 1px green;
+    background-color: green;
+    border-radius: 5px;
+}
